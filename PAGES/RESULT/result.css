@@ -1,0 +1,140 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#result-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+}
+
+#score-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#total-score,
+#total-marks {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #007bff;
+}
+
+h3 {
+    color: #555;
+}
+
+#questions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#questions-list li {
+    margin-bottom: 20px;
+}
+
+#certification-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#google-form {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#certification-button:hover {
+    background-color: #0056b3;
+}
+#google-form:hover {
+    background-color: #0056b3;
+}
+
+/* Add more styles as needed */
+.correct-answer {
+    background-color: lightgrey;
+}
+/* Add these styles to your CSS file or in a <style> tag in your HTML file */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#questions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+strong {
+    font-size: 18px;
+    color: #333; /* Question text color */
+}
+
+em {
+    font-size: 16px;
+}
+
+.correct-answer {
+    color: green; /* Color for correct answer text */
+}
+
+/* Optional: Add a hover effect to questions */
+li:hover {
+    background-color: #f4f4f4; /* Light grey background on hover */
+    transition: background-color 0.3s ease;
+}
+
+.main-home-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3498db; /* Choose your desired background color */
+    color: #fff; /* Choose your desired text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-home-button:hover {
+    background-color: #2980b9; /* Change the color on hover if desired */
+}

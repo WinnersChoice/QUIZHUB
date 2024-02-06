@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light Blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 100%; */
+}
+
+header {
+    background-color: #0d47a1; /* Dark Blue header */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* width: 100%; */
+}
+
+.header-container {
+    width: 100%;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav button {
+    background-color: #1565c0; /* Dark Blue button */
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    margin: 20px;
+    max-width: 600px; /* Adjust the max-width as needed */
+    width: 100%;
+}
+
+footer {
+    background-color: #0d47a1; /* Dark Blue footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+button:hover {
+    background-color: #0d47a1; /* Darker Blue on hover */
+}
+button.active {
+    background-color: #4caf50; /* Green for active state */
+}
+
+.PP:hover{
+    color: rgb(0, 0, 0);
+}
+.AU:hover{
+    color: rgb(0, 0, 0);
+}
